@@ -71,11 +71,11 @@
 }
 
 - (void)setOn:(BOOL)on {
-    [self setOn:!_on animated:NO sendActions:NO];
+    [self setOn:on animated:NO sendActions:NO];
 }
 
 - (void)setOn:(BOOL)on animated:(BOOL)animated {
-     [self setOn:!_on animated:animated sendActions:NO];
+     [self setOn:on animated:animated sendActions:NO];
 }
 
 - (void)handleTapGesture:(UIGestureRecognizer *)gesture {
